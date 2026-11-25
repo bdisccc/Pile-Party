@@ -1,0 +1,13 @@
+{
+  "name": "pile-party-source",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mobile-first, online, realtime matching-card game with custom image sets",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
